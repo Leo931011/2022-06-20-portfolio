@@ -1,7 +1,7 @@
 body{
     background-color: rgb(10, 198, 245);
     font-family: '微軟正黑體';
-    color: #222;
+    color: #fff;
     user-select: none;
     background-image: url(https://images.pexels.com/photos/12458839/pexels-photo-12458839.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
     background-size: cover;
@@ -48,7 +48,7 @@ hr{
 }
 a{
     text-decoration: none;
-    color: #222;
+    color: #fff;
     height: 100%;
     width: 100%;
     display: flex;
