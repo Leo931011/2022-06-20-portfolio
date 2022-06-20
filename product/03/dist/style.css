@@ -1,0 +1,153 @@
+*{
+  font-family: 微軟正黑體;
+  color:#333;
+  letter-spacing
+}
+
+body{
+  padding: 20px;
+}
+
+h1{
+  font-size:40px;
+}
+
+h6{
+  margin:5px;
+  text-align:right;
+}
+.box{
+  width:200px;
+  height:200px;
+  border: 3px solid #000;
+  
+  margin-left:25px;
+  }
+
+
+.red_box,.blue_box{
+  width:50px;
+  height:50px;
+  border:3px solid #000;
+  margin-top:30px;
+  border-left:none;
+}
+
+.box:hover{
+  cursor:pointer;
+}
+
+.box:hover .red_box{
+  width:100px;
+  transition:1s;
+  background-color:red;
+}
+
+.box:hover .blue_box{
+  width:150px;
+  transition:1s;
+  background-color:blue;
+}
+
+.box:active{
+  background-color:gray;
+}
+
+.big_box{
+  width: 450px;
+  height: 300px;
+  border:3px solid #000;
+  padding: 20px;
+  margin-left: 25px;
+}
+
+.big_box h1,p{
+  padding: relative;
+  top: 20px;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.big_box:hover h1,.big_box:hover p{
+  opacity: 1;
+}
+.big_box p{
+  transition-delay: 0.5s;
+}
+
+
+.bigbox{
+  border:3px solid #000;
+  width: 450px;
+  height: 300px;
+  padding: 20px;
+  margin-left: 25px;
+}
+.box1{
+   position: absolute; 
+   left: 500px;
+   top: 100px; 
+   right: 100px;
+   bottom: 30px; 
+
+}
+.table{
+  width: 150px;
+  height: 125px;
+  border: 3px solid #000;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:50px;
+  transition-duration: 0.5s;
+}
+.card{
+  width: 70px;
+  height: 105px;
+  border: 1px solid #ccc;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+  opacity: 0;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+}
+.numleft{
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  
+}
+.numright{
+  position: absolute;
+  right: 8px;
+  bottom: 5px;
+ 
+}
+
+.numleft,.numright{
+  opacity: 0;
+  transition-duration:0.5s;
+  position: absolute;
+}
+.card img{
+  height: 30px;
+  opacity: 0;
+  transition-duration:0.5s ;
+}
+.card:active .numleft,.card:active .numright{
+  opacity: 1;
+}
+.card:hover img{
+  opacity: 1;
+}
+.table:hover .card{
+  opacity: 1;
+}
+.table:hover{
+  background-color: #222;
+}
