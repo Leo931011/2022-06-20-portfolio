@@ -64,7 +64,7 @@ ol{
 }
 li{
     border-radius: 10px;
-    border: 1px solid #222;
+    border: 1px solid #fff;
     width: 30%;
     height: 220px;
     margin-right: 30px;
@@ -74,7 +74,7 @@ li{
     transition-duration: 0.5s;
 }
 li:hover{
-    background-color: #bbb;
+    background-color: #fff;
 }
 h4{
     font-size: 28px;
